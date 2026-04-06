@@ -1,9 +1,10 @@
-package com.gl.capstone.entity;
+package com.gl.userservice.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import lombok.*;
+
 
     @Entity
     @Table(name = "users")
@@ -41,4 +42,4 @@ import lombok.*;
         @Column(name = "manager_id")
         private String managerId;
     }
-}
+

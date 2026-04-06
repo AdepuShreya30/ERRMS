@@ -1,4 +1,4 @@
-package com.gl.capstone;
+package com.gl.userservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

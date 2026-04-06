@@ -1,5 +1,5 @@
-package com.gl.capstone.repository;
-import com.gl.capstone.entity.User;
+package com.gl.userservice.repository;
+import com.gl.userservice.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import java.util.List;
